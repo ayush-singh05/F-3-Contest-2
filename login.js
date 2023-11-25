@@ -1,9 +1,6 @@
 
 
-// const setName = document.getElementById('setvalues');
-// const setEmail = document.getElementById('setEmail');
-// const setPassword = document.getElementById('setPassword');
-// const setToken = document.getElementById('setToken');
+
 const getDiv = document.getElementById("setvalues");
 
 const logOut = document.getElementById("logout-btn")

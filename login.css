@@ -56,3 +56,17 @@ body {
 .signup>p {
     line-height: 1px;
 }
+
+@media (max-width:480px) {
+    .container {
+        padding: 10px 20px;
+        justify-content: center;
+        width: 297px;
+       margin-top: 40px;
+    }
+    #logout-btn{
+        width: 278.523px;
+        height: 48.114px;
+    }
+
+}
