@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>User Authentication</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="singup-container">
+            <p>Welcome back! 👋</p>
+            <h3>Sign up to your account</h3>
+            <div class="signup">
+                <label for="name">Your name</label>
+                <input id="username" type="text" name="name" required>
+                <label for="email">Your email</label>
+                <input id="useremail" type="email" name="email" required>
+                <label for="password">Password</label>
+                <input id="userpassword" type="password" name="password" required>
+                <label for="cpassword">Confirm Password</label>
+                <input id="userpasswordCheck" type="password" name="cpassword" required>
+                <button id="btn">CONTINUE</button>
+            </div>
+            <div class="error-message">
+                <p>Error: All fields are mandatory!</p>
+            </div>
+        </div>
+    </div>
+    <p class="account">Don’t have an account? <span>Sign up</span></p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
